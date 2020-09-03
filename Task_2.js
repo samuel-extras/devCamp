@@ -1,5 +1,5 @@
 const primeNumber = (number) =>{
-    //initiallizing prime boolean to be true
+    //initializing prime boolean to be true
     let isPrime = true;
     // this condition check if number is positive and also make 1 and 0 non-prime number
     if(number >1){
@@ -16,4 +16,3 @@ const primeNumber = (number) =>{
     return isPrime
 }
 
-console.log(primeNumber(4));
