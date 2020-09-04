@@ -13,4 +13,3 @@ const addUpToNumber = (array, number) => {
 
     console.log(newArray);
 }
-addUpToNumber([1,1,1,2,3,4,5,6,7,8], 6)
