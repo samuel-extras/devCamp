@@ -3,3 +3,4 @@ SELECT TenantID, AptID COUNT(*) TenantID FROM AptTenants GROUP BY TenantID, AptI
 /* bonus ii*/
 SELECT * from Buildings
 SELECT * from   Requests WHERE Status = "Open"
+
