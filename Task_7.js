@@ -14,4 +14,4 @@ const findStandardDeviation = (array) => {
   // find the square root of the sum of meanDis array divided by the total number of the data point i.e size
   return Math.sqrt(meanDis.reduce((a, b) => a + b, 0) / size);
 };
-console.log(findStandardDeviation([1, 2, 3, 6]));
+
